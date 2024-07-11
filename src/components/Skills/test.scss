@@ -1,0 +1,83 @@
+@use '../../variables' as *;
+
+.skills {
+    padding: 14px;
+    margin: 14px;
+    font-family: $font_family;
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 4vw;
+        font-family: $font_family;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    span {
+        background: rgba(0, 0, 0, 0);
+    }
+    
+    img {
+        width: 100%;
+        height: 5vh;
+    }
+
+    button {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #26C17E;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+
+        &:disabled {
+            background-color: #ccc;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            align-self: flex-start;
+        }
+
+        div > div {
+            color: red;
+            margin-top: 5px;
+        }
+    }
+}
+
+
+.skills_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editButton {
+    width: 80px;
+    height: 6vh;
+    font-size: 12px;
+    margin-bottom: 3%;
+}

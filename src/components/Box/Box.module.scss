@@ -1,0 +1,23 @@
+@use '../../variables' as * ;
+
+.box {
+  background-color: #fff;
+  padding: 14px;
+  margin: 14px;
+}
+
+.box__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 4vw;
+  font-family: $font_family;
+  font-weight: 700;
+  color: $primary-color;
+}
+
+.box__content {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: $font_family;
+  font-weight: 400;
+}

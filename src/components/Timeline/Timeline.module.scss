@@ -1,0 +1,61 @@
+@use "../../variables" as *;
+
+.timelineContainer {
+  padding: 14px;
+  margin: 14px;
+  font-family: $font_family;
+
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    font-family: $font_family;
+    font-weight: 700;
+    color: $primary-color;
+  }
+}
+
+.timelineWrapper {
+  height: 50vh;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.timeline_content {
+  background-color: #eeeeee;
+  padding: 2%;
+  border-radius: 10px;
+
+  p {
+    font-family: $font_family;
+    font-size: 14px;
+  }
+
+  h4 {
+    font-family: $font_family;
+    font-size: 16px;
+  }
+}
+
+.connector span {
+  background-color: $primary-color;
+}
+
+.connector {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+
+
+
+.loadingContainer {
+  padding: 14px;
+  margin: 14px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;  
+  justify-content: center;
+  gap: 1rem; 
+  color: $primary-color; 
+}

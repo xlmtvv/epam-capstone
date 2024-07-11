@@ -1,0 +1,73 @@
+@use '../../_variables.scss' as *;
+
+.adress{
+    padding: 14px;
+    margin: 14px;
+    font-family: $font_family;
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 4vw;
+        font-family: $font_family;
+        font-weight: 700;
+        color: $primary-color;
+    }
+}
+
+.adress_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+.adress_list__item {
+    display: flex;
+
+    gap: 1vw;
+    align-items: center; 
+
+    text-align: start;
+
+    font-size: 18px;
+
+    a {
+        color:black;
+        text-decoration: none;
+
+    }
+
+    p {
+        padding: 0%;
+        margin: 0%;;
+        font-weight: 600;
+    }
+}
+
+
+
+.adress_list__twitter_title {
+    margin-bottom: 0%;
+}
+
+#adress_list__subtitle {
+    color: #969797;
+    font-weight: 300;
+}
+
+.adress_list__facebook_title {
+    margin-bottom: 0%;
+}
+
+.adress_list__skype_title {
+    margin-bottom: 0%;
+}
+
+.adress_icon {
+    color: #26C17E;
+}
+
+.adress_list__phone, .adress_list__email {
+    font-weight: 600;
+}
+

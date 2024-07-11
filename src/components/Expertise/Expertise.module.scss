@@ -1,0 +1,86 @@
+@use '../../variables' as *;
+
+.expertise {
+    padding: 14px;
+    margin: 14px;
+}
+
+.expertise h2 {
+  font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    font-family: $font_family;
+    font-weight: 700;
+    color: $primary-color;
+}
+  
+  .experience__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience__item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .company__info {
+    flex: 1; 
+    max-width: 15vw;
+}
+  
+  .company {
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    font-family: $font_family;
+    font-size: 16px;
+  }
+  
+  .experience__details {
+    flex: 1; 
+    align-items: flex-start;
+  }
+
+  .job {
+    color: #222935;
+    font-weight: 700;
+    font-family: $font_family;
+    font-size: 16px;
+    margin:0
+  }
+
+
+  
+  .date {
+    font-size: 15px;
+    color: #667081;    
+    margin: 0 0 5px 0; 
+    font-weight: 300;
+    font-family: $font_family;
+  }
+  
+  .description {
+    font-family: $font_family;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+
+@media (max-width: 600px) {
+    .company {
+      font-size: 12px;
+    }
+
+    .job {
+      font-size: 12px;
+    }
+
+
+    .date {
+      font-size: 12px;
+    }
+
+    .description {
+      font-size: 12px;
+    }
+}

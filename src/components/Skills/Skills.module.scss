@@ -1,0 +1,118 @@
+@use '../../variables' as *;
+
+.skills {
+    padding: 14px;
+    margin: 14px;
+    font-family: $font_family;
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 4vw;
+        font-family: $font_family;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    span {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    img {
+        width: 100%;
+        height: 5vh;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid $primary-color;
+        border-radius: 10px;
+        padding: 4%;
+        margin-bottom: 2%;
+        font-size: 16px;
+
+        .skills_form__input {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 3%;
+
+            label {
+                width: 10%;
+                margin-bottom: 0;
+                margin-right: 7%;
+            }
+
+            input {
+                width: 30vw;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+        }
+
+        button {
+            align-self: flex-start;
+        }
+
+        div > div {
+            color: red;
+            margin-top: 5px;
+        }
+    }
+}
+
+.skills_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editButton {
+    width: 100px;
+    height: 6vh;
+    font-size: 12px;
+    background-color: #222935;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 3%;
+  
+
+    &:hover {
+        background-color: $primary-color;
+    }
+
+    svg {
+        margin-right: 3%;;
+    }
+}
+
+
+.skills__addSkill_button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #222935;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+
+    &:disabled {
+        background-color: #9f9f9f;
+    }
+}
+
+.skills_input__wrapper {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        width: 90%;
+    }
+}

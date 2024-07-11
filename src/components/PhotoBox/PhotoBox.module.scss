@@ -1,0 +1,63 @@
+@use "../../_variables.scss" as *;
+
+.photobox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  font-family: $font_family;
+}
+
+.avatar {
+  width: 163px;
+  height: 163px;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+
+.info {
+  flex: 1; 
+  max-width: 50vw;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.description {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.info {
+  .name {
+    color: white;
+  }
+}
+
+@media (max-width: 400px) {
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 15px;
+  }
+}

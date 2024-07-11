@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoBox Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="photobox"
+  >
+    <img
+      alt="John Doe's avatar"
+      class="avatar"
+      src="https://example.com/avatar.jpg"
+    />
+    <div
+      class="info"
+    >
+      <h2
+        class="name"
+      >
+        John Doe
+      </h2>
+      <h3
+        class="title"
+      >
+        Software Engineer
+      </h3>
+      <p
+        class="description"
+      >
+        Experienced in React and Node.js
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
